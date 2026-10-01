@@ -1,0 +1,217 @@
+Key,Category,Turkish(tr),English(en)
+color_red,renk,Kırmızı,Red
+color_orange,renk,Turuncu,Orange
+color_yellow,renk,Sarı,Yellow
+color_green,renk,Yeşil,Green
+color_turquoise,renk,Turkuaz,Turquoise
+color_blue,renk,Mavi,Blue
+color_navy,renk,Lacivert,Navy blue
+color_purple,renk,Mor,Purple
+color_pink,renk,Pembe,Pink
+color_white,renk,Beyaz,White
+color_gray,renk,Gri,Gray
+color_black,renk,Siyah,Black
+color_brown,renk,Kahverengi,Brown
+color_lightpink,renk,Açık pembe,Light pink
+color_gold,renk,Altın,Gold
+color_silver,renk,Gümüş,Silver
+vehicle_car,araç,Araba,Car
+vehicle_sportscar,araç,Spor araba,Sports car
+vehicle_monstertruck,araç,Canavar kamyon,Monster truck
+vehicle_pickup,araç,Kamyonet,Pickup truck
+vehicle_jeep,araç,Cip,Jeep
+vehicle_firetruck,araç,İtfaiye,Fire truck
+vehicle_classic,araç,Klasik araba,Classic car
+vehicle_bus,araç,Otobüs,Bus
+vehicle_ambulance,araç,Ambulans,Ambulance
+vehicle_police,araç,Polis arabası,Police car
+vehicle_tractor,araç,Traktör,Tractor
+vehicle_rocketcar,araç,Roket araba,Rocket car
+part_body,parça,Gövde,Body
+part_roof,parça,Tavan,Roof
+part_rim,parça,Jant,Rim
+part_wheel,parça,Tekerlek,Wheel
+part_door,parça,Kapı,Door
+part_window,parça,Cam,Window
+part_headlight,parça,Far,Headlight
+part_horn,parça,Korna,Horn
+part_exhaust,parça,Egzoz,Exhaust
+part_steeringwheel,parça,Direksiyon,Steering wheel
+part_seat,parça,Koltuk,Seat
+part_mirror,parça,Ayna,Mirror
+part_spoiler,parça,Kanatçık,Spoiler
+part_rocket,parça,Roket,Rocket
+part_balloon,parça,Balon,Balloon
+part_tail,parça,Kuyruk,Tail
+part_ears,parça,Kulaklar,Ears
+part_horn_unicorn,parça,Boynuz,Horn
+part_crown,parça,Taç,Crown
+part_propeller,parça,Pervane,Propeller
+part_mustache,parça,Bıyık,Mustache
+part_teeth,parça,Dişler,Teeth
+part_siren,parça,Siren,Siren
+part_surfboard,parça,Sörf tahtası,Surfboard
+part_snowplow,parça,Kar küreği,Snowplow
+part_wings,parça,Kanatlar,Wings
+part_ladder,parça,Merdiven,Ladder
+part_lights,parça,Işıklar,Lights
+part_eyes,parça,Gözler,Eyes
+part_mouth,parça,Ağız,Mouth
+animal_cat,hayvan,Kedi,Cat
+animal_dog,hayvan,Köpek,Dog
+animal_bear,hayvan,Ayı,Bear
+animal_rabbit,hayvan,Tavşan,Rabbit
+animal_frog,hayvan,Kurbağa,Frog
+animal_cow,hayvan,İnek,Cow
+animal_duck,hayvan,Ördek,Duck
+animal_lion,hayvan,Aslan,Lion
+animal_elephant,hayvan,Fil,Elephant
+animal_monkey,hayvan,Maymun,Monkey
+animal_chicken,hayvan,Tavuk,Chicken
+animal_sheep,hayvan,Koyun,Sheep
+animal_horse,hayvan,At,Horse
+animal_whale,hayvan,Balina,Whale
+animal_dinosaur,hayvan,Dinozor,Dinosaur
+animal_fox,hayvan,Tilki,Fox
+animal_penguin,hayvan,Penguen,Penguin
+animal_owl,hayvan,Baykuş,Owl
+animal_unicorn,hayvan,Tek boynuzlu at,Unicorn
+animal_butterfly,hayvan,Kelebek,Butterfly
+animal_fish,hayvan,Balık,Fish
+animal_robot,hayvan,Robot,Robot
+sound_cow,hayvan sesi,Möö!,Moo!
+sound_duck,hayvan sesi,Vak vak!,Quack quack!
+sound_dog,hayvan sesi,Hav hav!,Woof woof!
+sound_cat,hayvan sesi,Miyav!,Meow!
+sound_lion,hayvan sesi,Rooaar!,Roar!
+sound_sheep,hayvan sesi,Meee!,Baa!
+sound_chicken,hayvan sesi,Gıt gıdak!,Cluck cluck!
+sound_frog,hayvan sesi,Vırak!,Ribbit!
+food_donut,yiyecek,Donut,Donut
+food_pizza,yiyecek,Pizza,Pizza
+food_icecream,yiyecek,Dondurma,Ice cream
+food_watermelon,yiyecek,Karpuz,Watermelon
+food_strawberry,yiyecek,Çilek,Strawberry
+food_banana,yiyecek,Muz,Banana
+food_apple,yiyecek,Elma,Apple
+food_carrot,yiyecek,Havuç,Carrot
+food_cake,yiyecek,Pasta,Cake
+food_cookie,yiyecek,Kurabiye,Cookie
+shape_star,şekil,Yıldız,Star
+shape_heart,şekil,Kalp,Heart
+shape_circle,şekil,Daire,Circle
+shape_square,şekil,Kare,Square
+shape_triangle,şekil,Üçgen,Triangle
+shape_moon,şekil,Ay,Moon
+shape_sun,şekil,Güneş,Sun
+shape_cloud,şekil,Bulut,Cloud
+shape_rainbow,şekil,Gökkuşağı,Rainbow
+shape_flower,şekil,Çiçek,Flower
+shape_lightning,şekil,Şimşek,Lightning
+shape_fire,şekil,Ateş,Fire
+shape_diamond,şekil,Elmas,Diamond
+shape_bow,şekil,Fiyonk,Bow
+shape_ghost,şekil,Hayalet,Ghost
+number_1,sayı,Bir,One
+number_2,sayı,İki,Two
+number_3,sayı,Üç,Three
+number_4,sayı,Dört,Four
+number_5,sayı,Beş,Five
+number_6,sayı,Altı,Six
+number_7,sayı,Yedi,Seven
+number_8,sayı,Sekiz,Eight
+number_9,sayı,Dokuz,Nine
+number_10,sayı,On,Ten
+size_small,boyut,Küçük,Small
+size_medium,boyut,Orta,Medium
+size_big,boyut,Büyük,Big
+size_giant,boyut,Kocaman,Giant
+opp_high,zıtlık,Yüksek,High
+opp_low,zıtlık,Alçak,Low
+opp_fast,zıtlık,Hızlı,Fast
+opp_slow,zıtlık,Yavaş,Slow
+opp_clean,zıtlık,Temiz,Clean
+opp_dirty,zıtlık,Kirli,Dirty
+opp_day,zıtlık,Gündüz,Day
+opp_night,zıtlık,Gece,Night
+opp_open,zıtlık,Açık,Open
+opp_closed,zıtlık,Kapalı,Closed
+dir_front,yön,Ön,Front
+dir_back,yön,Arka,Back
+dir_top,yön,Üst,Top
+dir_under,yön,Alt,Under
+dir_side,yön,Yan,Side
+dir_inside,yön,İçeri,Inside
+dir_outside,yön,Dışarı,Outside
+dir_left,yön,Sol,Left
+dir_right,yön,Sağ,Right
+feel_happy,duygu,Mutlu,Happy
+feel_sleepy,duygu,Uykulu,Sleepy
+feel_surprised,duygu,Şaşkın,Surprised
+feel_cool,duygu,Havalı,Cool
+feel_love,duygu,Sevgi dolu,Loving
+feel_silly,duygu,Şapşal,Silly
+action_jump,eylem,Zıpla!,Jump!
+action_paint,eylem,Boya!,Paint!
+action_wash,eylem,Yıka!,Wash!
+action_drive,eylem,Sür!,Drive!
+action_stop,eylem,Dur!,Stop!
+action_look,eylem,Bak!,Look!
+action_honk,eylem,Korna çal!,Honk!
+action_sleep,eylem,Uyu,Sleep
+finish_solid,kaplama,Düz renk,Plain
+finish_twotone,kaplama,İki renk,Two colors
+finish_neon,kaplama,Parlak,Glowing
+finish_glitter,kaplama,Simli,Glitter
+weather_rain,hava,Yağmur,Rain
+weather_snow,hava,Kar,Snow
+weather_bubbles,hava,Baloncuk,Bubbles
+eyes_normal,göz,Normal gözler,Normal eyes
+eyes_star,göz,Yıldız gözler,Star eyes
+eyes_heart,göz,Kalp gözler,Heart eyes
+eyes_happy,göz,Mutlu gözler,Happy eyes
+eyes_cool,göz,Havalı gözlük,Cool glasses
+eyes_wink,göz,Göz kırpma,Wink
+ui_surprise,arayüz,Sürpriz!,Surprise!
+ui_photo,arayüz,Fotoğraf!,Photo!
+ui_garage,arayüz,Garaj,Garage
+ui_none,arayüz,Hiçbiri,None
+ui_goodnight,arayüz,"İyi geceler, Pofu!","Good night, Pofu!"
+praise_1,övgü,Harika!,Great!
+praise_2,övgü,Çok güzel!,Very nice!
+praise_3,övgü,Süper!,Super!
+prompt_find,soru,…bulabilir misin?,Can you find…
+prompt_where,soru,Nerede?,Where is it?
+pofu_name,pofu,Pofu,Pofu
+pofu_hello,pofu,"Merhaba, ben Pofu!","Hi, I'm Pofu!"
+pofu_welcome_back,pofu,Tekrar hoş geldin!,Welcome back!
+pofu_ready,pofu,Hadi başlayalım!,Let's go!
+pofu_happy,pofu,Pofu çok mutlu!,Pofu is so happy!
+pofu_giggle,pofu,"Hi hi, gıdıklanıyorum!","Hee hee, that tickles!"
+pofu_wow,pofu,Vay canına!,Wow!
+pofu_lookme,pofu,"Bana bak, ne güzel oldum!","Look at me, I look amazing!"
+pofu_clean,pofu,Tertemiz oldum!,I'm squeaky clean!
+pofu_photo,pofu,Gülümse!,Smile!
+pofu_surprise,pofu,Sürpriiiz!,Surpriiise!
+pofu_thanks,pofu,Teşekkürler!,Thank you!
+pofu_yawn,pofu,Pofu'nun uykusu geldi…,Pofu is getting sleepy…
+pofu_seeyou,pofu,Yarın görüşürüz!,See you tomorrow!
+cat_paint,kategori,Boya,Paint
+cat_brush,kategori,Fırça,Brush
+cat_stickers,kategori,Çıkartmalar,Stickers
+cat_wheels,kategori,Tekerlekler,Wheels
+cat_face,kategori,Yüz,Face
+cat_buddy,kategori,Arkadaş,Friend
+cat_sound,kategori,Sesler,Sounds
+food_candy,yiyecek,Şeker,Candy
+part_paw,parça,Pati,Paw
+part_gear,parça,Dişli,Gear
+cat_accessories,kategori,Süsler,Decorations
+ui_album,arayüz,Albüm,Album
+animal_panda,hayvan,Panda,Panda
+music_trumpet,müzik,Trompet,Trumpet
+fx_confetti,eğlence,Konfeti,Confetti
+shape_rectangle,şekil,Dikdörtgen,Rectangle
+cat_exhaust,kategori,Egzoz,Exhaust
+animal_squirrel,hayvan,Sincap,Squirrel
+animal_mouse,hayvan,Fare,Mouse

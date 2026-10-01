@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2cc899da9b6b449ea6a1a13d3670e6e, type: 3}
+  m_Name: Catalog
+  m_EditorClassIdentifier: 
+  cars:
+  - {fileID: 11400000, guid: 8efbc8dea29964b31be94a3cddb1ec71, type: 2}
+  parts:
+  - {fileID: 11400000, guid: 63f3650b658f348e7a302795a25b83c3, type: 2}
+  - {fileID: 11400000, guid: 03a72cc72980f491b96777c565105c05, type: 2}
+  - {fileID: 11400000, guid: a55aece8af8c341348c9c311afe8b577, type: 2}
+  - {fileID: 11400000, guid: fe6354058b2714e9aaa76ef39b1a8db5, type: 2}
+  - {fileID: 11400000, guid: c719b67d9ad654b9fa4e902b9c0d15b2, type: 2}
+  - {fileID: 11400000, guid: eccdc31f36dca453d86de7a5bdb0bc09, type: 2}
+  - {fileID: 11400000, guid: 09eca53857ef044b985e4b74a08dc560, type: 2}
+  - {fileID: 11400000, guid: 70b06acd8679f49bc98fe95db87bfcca, type: 2}
+  - {fileID: 11400000, guid: 6d8644eab2333471b99d776e14a7ace1, type: 2}
+  - {fileID: 11400000, guid: 982d3d1f72a204774a2a69f2f6122636, type: 2}
+  - {fileID: 11400000, guid: ebd7a25098701434390d1fafbd72a9fe, type: 2}
+  - {fileID: 11400000, guid: 5e4cc9a12630843de9973bef1d1018fa, type: 2}
+  - {fileID: 11400000, guid: 5bce1b74974f04fdd9945cbcff3242d5, type: 2}
+  - {fileID: 11400000, guid: 16bba8510dbdd46ce8254a870f45da89, type: 2}
+  - {fileID: 11400000, guid: 3826c01a8d4f74e56b27a805894d78a3, type: 2}
+  - {fileID: 11400000, guid: 3530caabef9ce4a6696d4f049bd2f326, type: 2}
+  - {fileID: 11400000, guid: 0191b690a4be549c898251ffcb58f383, type: 2}
+  - {fileID: 11400000, guid: 5d4883b74acef47e5ba21c026e21f35a, type: 2}
+  - {fileID: 11400000, guid: 6d3dcc5d43c0149d9b80564db274aa3d, type: 2}
+  - {fileID: 11400000, guid: 0449e6dcca3a045be8f4682b478d655f, type: 2}
+  - {fileID: 11400000, guid: 8b89866e5f29e40fd91fa8f3d8f641d0, type: 2}
+  - {fileID: 11400000, guid: b449e08444fcb42278268f68c765790c, type: 2}
+  - {fileID: 11400000, guid: f25b15d9e587345b4adc70017cb6c8f0, type: 2}
+  - {fileID: 11400000, guid: d2bcc76f948604d65b46ffcef9671e9b, type: 2}
+  - {fileID: 11400000, guid: 970160bff4d64453daaa2c1b2a664973, type: 2}
+  - {fileID: 11400000, guid: 9fc4bed4047ba4ec3aa419216ac1ced4, type: 2}
+  - {fileID: 11400000, guid: 35f0e7a50468640ef9be743041ac7991, type: 2}
+  - {fileID: 11400000, guid: aef8b643bd2c34653bf2e8f0bdd91d70, type: 2}
+  - {fileID: 11400000, guid: 85b4b6a9df3c946cab1e88e081722262, type: 2}
+  - {fileID: 11400000, guid: c1d2a6bebb3fa496b95d391f7b4fb65a, type: 2}
+  - {fileID: 11400000, guid: 8a00192361eaa4503b6935b2a5d1f8de, type: 2}
+  - {fileID: 11400000, guid: eb8679ade7e7f407d804f52396e9d0f0, type: 2}
+  - {fileID: 11400000, guid: 6018905718443467794fc0b8a6464a57, type: 2}
+  - {fileID: 11400000, guid: fb046f715094c40f8b87feee1d47e9fe, type: 2}
+  - {fileID: 11400000, guid: 5c69c8e22a4ff4ceea28e4ae2a5bb09c, type: 2}
+  - {fileID: 11400000, guid: d2254e2990b28471ab72560fea281c29, type: 2}
+  - {fileID: 11400000, guid: f078856c6878b4ca2acd9a228f0cecda, type: 2}
+  - {fileID: 11400000, guid: 9d5e307c67b7b4fe29598889c156be22, type: 2}
+  colors:
+  - color: {r: 1, g: 0.30980393, b: 0.48235294, a: 1}
+    wordKey: color_red
+  - color: {r: 1, g: 0.6156863, b: 0.18039216, a: 1}
+    wordKey: color_orange
+  - color: {r: 1, g: 0.8235294, b: 0.24705882, a: 1}
+    wordKey: color_yellow
+  - color: {r: 0.48235294, g: 0.8627451, b: 0.3529412, a: 1}
+    wordKey: color_green
+  - color: {r: 0.22352941, g: 0.76862746, b: 0.65882355, a: 1}
+    wordKey: color_turquoise
+  - color: {r: 0.2901961, g: 0.65882355, b: 1, a: 1}
+    wordKey: color_blue
+  - color: {r: 0.42352942, g: 0.48235294, b: 1, a: 1}
+    wordKey: color_navy
+  - color: {r: 0.6901961, g: 0.42352942, b: 1, a: 1}
+    wordKey: color_purple
+  - color: {r: 1, g: 0.47843137, b: 0.8509804, a: 1}
+    wordKey: color_pink
+  - color: {r: 1, g: 1, b: 1, a: 1}
+    wordKey: color_white
+  - color: {r: 0.6039216, g: 0.627451, b: 0.70980394, a: 1}
+    wordKey: color_gray
+  - color: {r: 0.16862746, g: 0.16862746, b: 0.22745098, a: 1}
+    wordKey: color_black
+  - color: {r: 0.54509807, g: 0.3529412, b: 0.23529412, a: 1}
+    wordKey: color_brown
+  - color: {r: 1, g: 0.7019608, b: 0.78039217, a: 1}
+    wordKey: color_lightpink
+  stickers:
+  - id: star
+    sprite: {fileID: 21300000, guid: c5d967af4e3d4422b9406d03b6080253, type: 3}
+    wordKey: shape_star
+    premium: 0
+    animated: 1
+  - id: heart
+    sprite: {fileID: 21300000, guid: 12b0c686ccd924f1f83805946ce133b3, type: 3}
+    wordKey: shape_heart
+    premium: 0
+    animated: 0
+  - id: rainbow
+    sprite: {fileID: 21300000, guid: 0929f58a6d76140dcaccdb7320d40ec3, type: 3}
+    wordKey: shape_rainbow
+    premium: 0
+    animated: 0
+  - id: unicorn
+    sprite: {fileID: 21300000, guid: 1d9f5ed612ba744e3a3d2058ea8067b5, type: 3}
+    wordKey: animal_unicorn
+    premium: 0
+    animated: 0
+  - id: dino
+    sprite: {fileID: 21300000, guid: 578c033e0e9354c1ab88aee1682939e1, type: 3}
+    wordKey: animal_dinosaur
+    premium: 0
+    animated: 0
+  - id: cat
+    sprite: {fileID: 21300000, guid: 525d3d3c84a06410cb95ec619f3b4b7f, type: 3}
+    wordKey: animal_cat
+    premium: 0
+    animated: 0
+  - id: rocket
+    sprite: {fileID: 21300000, guid: 3dbdf66c9c18d425a865da5075886b6c, type: 3}
+    wordKey: part_rocket
+    premium: 0
+    animated: 0
+  - id: blossom
+    sprite: {fileID: 21300000, guid: 472205fadf0d04aee931c5a088a7cbe3, type: 3}
+    wordKey: shape_flower
+    premium: 0
+    animated: 0
+  - id: donut
+    sprite: {fileID: 21300000, guid: 54a9cca649c8f4cb6b32aaa4fb8f265c, type: 3}
+    wordKey: food_donut
+    premium: 0
+    animated: 0
+  - id: strawberry
+    sprite: {fileID: 21300000, guid: b66594344cee04528b174e1da1e43ea4, type: 3}
+    wordKey: food_strawberry
+    premium: 0
+    animated: 0
+  - id: butterfly
+    sprite: {fileID: 21300000, guid: 17d840a4cd1894de3b7988963007a50c, type: 3}
+    wordKey: animal_butterfly
+    premium: 0
+    animated: 1
+  - id: zap
+    sprite: {fileID: 21300000, guid: 91aaed66fbc414be8b3dee4f3d31888a, type: 3}
+    wordKey: shape_lightning
+    premium: 0
+    animated: 0
+  - id: panda
+    sprite: {fileID: 21300000, guid: f237f2e4daf0a43a08c83a643dc1ec9c, type: 3}
+    wordKey: animal_panda
+    premium: 0
+    animated: 0
+  - id: ghost
+    sprite: {fileID: 21300000, guid: 6ff3bf164b64448f99186e5046bb6282, type: 3}
+    wordKey: shape_ghost
+    premium: 0
+    animated: 0
+  - id: icecream
+    sprite: {fileID: 21300000, guid: d2d1ab57a7367446da4d62a7a3bfaa8b, type: 3}
+    wordKey: food_icecream
+    premium: 0
+    animated: 0
+  - id: crown
+    sprite: {fileID: 21300000, guid: 57ce6799ac6f04d79841edba505b114f, type: 3}
+    wordKey: part_crown
+    premium: 0
+    animated: 0
+  eyeStyles:
+  - id: normal
+    white: {fileID: 21300000, guid: 6ab137a3906194a0c939c5c3163dca90, type: 3}
+    iris: {fileID: 21300000, guid: 967982c8322134d24b443df9b972814e, type: 3}
+    highlight: {fileID: 21300000, guid: 3129c46ae85b44edeb2c99bd6f514e63, type: 3}
+    happy: {fileID: 21300000, guid: 4257dee4457554454be17e0572b5868e, type: 3}
+    sleepy: {fileID: 21300000, guid: 2502fab9e017843919eab24ba11a3d2c, type: 3}
+    wordKey: eyes_normal
+    tintIris: 1
+    thumbnail: {fileID: 21300000, guid: b788b01396ba64641ba308927edc73cb, type: 3}
+  - id: yildiz
+    white: {fileID: 21300000, guid: 6ab137a3906194a0c939c5c3163dca90, type: 3}
+    iris: {fileID: 21300000, guid: 25fe6867ebcbe4579884c83f62259cde, type: 3}
+    highlight: {fileID: 21300000, guid: 3129c46ae85b44edeb2c99bd6f514e63, type: 3}
+    happy: {fileID: 21300000, guid: 4257dee4457554454be17e0572b5868e, type: 3}
+    sleepy: {fileID: 21300000, guid: 2502fab9e017843919eab24ba11a3d2c, type: 3}
+    wordKey: eyes_star
+    tintIris: 1
+    thumbnail: {fileID: 21300000, guid: c5733b883375e49e18e2d73cd9ebee80, type: 3}
+  - id: kalp
+    white: {fileID: 21300000, guid: 6ab137a3906194a0c939c5c3163dca90, type: 3}
+    iris: {fileID: 21300000, guid: ebc9599efcfcb46ffbeff3bac8ee43d2, type: 3}
+    highlight: {fileID: 21300000, guid: 3129c46ae85b44edeb2c99bd6f514e63, type: 3}
+    happy: {fileID: 21300000, guid: 4257dee4457554454be17e0572b5868e, type: 3}
+    sleepy: {fileID: 21300000, guid: 2502fab9e017843919eab24ba11a3d2c, type: 3}
+    wordKey: eyes_heart
+    tintIris: 1
+    thumbnail: {fileID: 21300000, guid: 4a652cf95a58d4c8eb6ceb4a50982161, type: 3}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e8264f0ee07485dab535d7efc842a0, type: 3}
+  m_Name: Car_Test
+  m_EditorClassIdentifier: 
+  id: spor
+  chassisPrefab: {fileID: 2728538480881272768, guid: 48d213a15eaf94e629904718bb1f96da, type: 3}
+  thumbnail: {fileID: 0}
+  wordKey: vehicle_car
+  premium: 0
+  family: 0
+  cameraDistance: 4.7
+  cameraTargetHeight: 0.6
+  defaults:
+    carId: spor
+    bodyColor: '#FF4F7B'
+    roofColor: '#2B2B3A'
+    rimColor: '#FFD23F'
+    eyeColor: '#4AA8FF'
+    finish: 0
+    wheelSize: 1
+    height: 1
+    eyeStyle: normal
+    parts:
+    - slot: 0
+      partId: wheel_spokes
+    - slot: 6
+      partId: exhaust_double
+    - slot: 8
+      partId: buddy_cat
+    - slot: 9
+      partId: toy_dice
+    - slot: 7
+      partId: horn_cow
+    stickers: []

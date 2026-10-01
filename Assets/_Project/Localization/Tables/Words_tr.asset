@@ -1,0 +1,811 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Words_tr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 4cec701b4eaa54c72ad3e370a6e9737c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 118777438208
+    m_Localized: "K\u0131rm\u0131z\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632512
+    m_Localized: Turuncu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632513
+    m_Localized: "Sar\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632514
+    m_Localized: "Ye\u015Fil"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632515
+    m_Localized: Turkuaz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632516
+    m_Localized: Mavi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632517
+    m_Localized: Lacivert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632518
+    m_Localized: Mor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632519
+    m_Localized: Pembe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632520
+    m_Localized: Beyaz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632521
+    m_Localized: Gri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632522
+    m_Localized: Siyah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632523
+    m_Localized: Kahverengi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632524
+    m_Localized: "A\xE7\u0131k pembe"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632525
+    m_Localized: "Alt\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632526
+    m_Localized: "G\xFCm\xFC\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632527
+    m_Localized: Araba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632528
+    m_Localized: Spor araba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632529
+    m_Localized: Canavar kamyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632530
+    m_Localized: Kamyonet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632531
+    m_Localized: Cip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632532
+    m_Localized: "\u0130tfaiye"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632533
+    m_Localized: Klasik araba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632534
+    m_Localized: "Otob\xFCs"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632535
+    m_Localized: Ambulans
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632536
+    m_Localized: "Polis arabas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632537
+    m_Localized: "Trakt\xF6r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632538
+    m_Localized: Roket araba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632539
+    m_Localized: "G\xF6vde"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632540
+    m_Localized: Tavan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632541
+    m_Localized: Jant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632542
+    m_Localized: Tekerlek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632543
+    m_Localized: "Kap\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632544
+    m_Localized: Cam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632545
+    m_Localized: Far
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632546
+    m_Localized: Korna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632547
+    m_Localized: Egzoz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632548
+    m_Localized: Direksiyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632549
+    m_Localized: Koltuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632550
+    m_Localized: Ayna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632551
+    m_Localized: "Kanat\xE7\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632552
+    m_Localized: Roket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632553
+    m_Localized: Balon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632554
+    m_Localized: Kuyruk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632555
+    m_Localized: Kulaklar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632556
+    m_Localized: Boynuz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632557
+    m_Localized: "Ta\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632558
+    m_Localized: Pervane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632559
+    m_Localized: "B\u0131y\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632560
+    m_Localized: "Di\u015Fler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632561
+    m_Localized: Siren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632562
+    m_Localized: "S\xF6rf tahtas\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632563
+    m_Localized: "Kar k\xFCre\u011Fi"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632564
+    m_Localized: Kanatlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632565
+    m_Localized: Merdiven
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632566
+    m_Localized: "I\u015F\u0131klar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632567
+    m_Localized: "G\xF6zler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632568
+    m_Localized: "A\u011F\u0131z"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632569
+    m_Localized: Kedi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632570
+    m_Localized: "K\xF6pek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632571
+    m_Localized: "Ay\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632572
+    m_Localized: "Tav\u015Fan"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632573
+    m_Localized: "Kurba\u011Fa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632574
+    m_Localized: "\u0130nek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632575
+    m_Localized: "\xD6rdek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632576
+    m_Localized: Aslan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632577
+    m_Localized: Fil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632578
+    m_Localized: Maymun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632579
+    m_Localized: Tavuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632580
+    m_Localized: Koyun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632581
+    m_Localized: At
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632582
+    m_Localized: Balina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632583
+    m_Localized: Dinozor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632584
+    m_Localized: Tilki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632585
+    m_Localized: Penguen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632586
+    m_Localized: "Bayku\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632587
+    m_Localized: Tek boynuzlu at
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632588
+    m_Localized: Kelebek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632589
+    m_Localized: "Bal\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632590
+    m_Localized: Robot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632591
+    m_Localized: "M\xF6\xF6!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632592
+    m_Localized: Vak vak!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632593
+    m_Localized: Hav hav!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632594
+    m_Localized: Miyav!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632595
+    m_Localized: Rooaar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632596
+    m_Localized: Meee!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632597
+    m_Localized: "G\u0131t g\u0131dak!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632598
+    m_Localized: "V\u0131rak!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632599
+    m_Localized: Donut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632600
+    m_Localized: Pizza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632601
+    m_Localized: Dondurma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632602
+    m_Localized: Karpuz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632603
+    m_Localized: "\xC7ilek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632604
+    m_Localized: Muz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632605
+    m_Localized: Elma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632606
+    m_Localized: "Havu\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632607
+    m_Localized: Pasta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632608
+    m_Localized: Kurabiye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826816
+    m_Localized: "Y\u0131ld\u0131z"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826817
+    m_Localized: Kalp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826818
+    m_Localized: Daire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826819
+    m_Localized: Kare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826820
+    m_Localized: "\xDC\xE7gen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826821
+    m_Localized: Ay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826822
+    m_Localized: "G\xFCne\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826823
+    m_Localized: Bulut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826824
+    m_Localized: "G\xF6kku\u015Fa\u011F\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826825
+    m_Localized: "\xC7i\xE7ek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826826
+    m_Localized: "\u015Eim\u015Fek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826827
+    m_Localized: "Ate\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826828
+    m_Localized: Elmas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826829
+    m_Localized: Fiyonk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826830
+    m_Localized: Hayalet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826831
+    m_Localized: Bir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826832
+    m_Localized: "\u0130ki"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826833
+    m_Localized: "\xDC\xE7"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826834
+    m_Localized: "D\xF6rt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826835
+    m_Localized: "Be\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826836
+    m_Localized: "Alt\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826837
+    m_Localized: Yedi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826838
+    m_Localized: Sekiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826839
+    m_Localized: Dokuz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826840
+    m_Localized: On
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826841
+    m_Localized: "K\xFC\xE7\xFCk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826842
+    m_Localized: Orta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826843
+    m_Localized: "B\xFCy\xFCk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826844
+    m_Localized: Kocaman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826845
+    m_Localized: "Y\xFCksek"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826846
+    m_Localized: "Al\xE7ak"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826847
+    m_Localized: "H\u0131zl\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826848
+    m_Localized: "Yava\u015F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826849
+    m_Localized: Temiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826850
+    m_Localized: Kirli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826851
+    m_Localized: "G\xFCnd\xFCz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826852
+    m_Localized: Gece
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826853
+    m_Localized: "A\xE7\u0131k"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826854
+    m_Localized: "Kapal\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826855
+    m_Localized: "\xD6n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826856
+    m_Localized: Arka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826857
+    m_Localized: "\xDCst"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826858
+    m_Localized: Alt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826859
+    m_Localized: Yan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826860
+    m_Localized: "\u0130\xE7eri"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826861
+    m_Localized: "D\u0131\u015Far\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826862
+    m_Localized: Sol
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826863
+    m_Localized: "Sa\u011F"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826864
+    m_Localized: Mutlu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826865
+    m_Localized: Uykulu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826866
+    m_Localized: "\u015Ea\u015Fk\u0131n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826867
+    m_Localized: "Haval\u0131"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826868
+    m_Localized: Sevgi dolu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826869
+    m_Localized: "\u015Eap\u015Fal"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826870
+    m_Localized: "Z\u0131pla!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826871
+    m_Localized: Boya!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826872
+    m_Localized: "Y\u0131ka!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826873
+    m_Localized: "S\xFCr!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826874
+    m_Localized: Dur!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826875
+    m_Localized: Bak!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826876
+    m_Localized: "Korna \xE7al!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826877
+    m_Localized: Uyu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826878
+    m_Localized: "D\xFCz renk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826879
+    m_Localized: "\u0130ki renk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826880
+    m_Localized: Parlak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826881
+    m_Localized: Simli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826882
+    m_Localized: "Ya\u011Fmur"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826883
+    m_Localized: Kar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826884
+    m_Localized: Baloncuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826885
+    m_Localized: "Normal g\xF6zler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826886
+    m_Localized: "Y\u0131ld\u0131z g\xF6zler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826887
+    m_Localized: "Kalp g\xF6zler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826888
+    m_Localized: "Mutlu g\xF6zler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826889
+    m_Localized: "Haval\u0131 g\xF6zl\xFCk"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826890
+    m_Localized: "G\xF6z k\u0131rpma"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826891
+    m_Localized: "S\xFCrpriz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826892
+    m_Localized: "Foto\u011Fraf!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826893
+    m_Localized: Garaj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826894
+    m_Localized: "Hi\xE7biri"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826895
+    m_Localized: "\u0130yi geceler, Pofu!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826896
+    m_Localized: Harika!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826897
+    m_Localized: "\xC7ok g\xFCzel!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826898
+    m_Localized: "S\xFCper!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826899
+    m_Localized: "\u2026bulabilir misin?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826900
+    m_Localized: Nerede?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826901
+    m_Localized: Pofu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826902
+    m_Localized: Merhaba, ben Pofu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826903
+    m_Localized: "Tekrar ho\u015F geldin!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826904
+    m_Localized: "Hadi ba\u015Flayal\u0131m!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826905
+    m_Localized: "Pofu \xE7ok mutlu!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826906
+    m_Localized: "Hi hi, g\u0131d\u0131klan\u0131yorum!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826907
+    m_Localized: "Vay can\u0131na!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826908
+    m_Localized: "Bana bak, ne g\xFCzel oldum!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826909
+    m_Localized: Tertemiz oldum!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826910
+    m_Localized: "G\xFCl\xFCmse!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826911
+    m_Localized: "S\xFCrpriiiz!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826912
+    m_Localized: "Te\u015Fekk\xFCrler!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826913
+    m_Localized: "Pofu'nun uykusu geldi\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826914
+    m_Localized: "Yar\u0131n g\xF6r\xFC\u015F\xFCr\xFCz!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

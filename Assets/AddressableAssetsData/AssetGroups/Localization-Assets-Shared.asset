@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_GUID: 38f8405d9a9bd41aaaa4abd1e630230c
+  m_SerializeEntries:
+  - m_GUID: 4cec701b4eaa54c72ad3e370a6e9737c
+    m_Address: Assets/_Project/Localization/Tables/Words Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6509826cb6c44bb28750ee4487fb726
+    m_Address: Assets/localization/AppInfo Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caf95648f8c114f38ab76ad7744cde0a
+    m_Address: Assets/app_name Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dac0d2d6f29764eafab87198d546a9d3
+    m_Address: Assets/_Project/Localization/Tables/WordAudio Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 991784a48b396484482c651127bc7fe6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c28e8abd950ab4d82a541806828ec703, type: 2}
+    - {fileID: 11400000, guid: c57b922cb956e48a287ddb8c0e8c4404, type: 2}
+    - {fileID: 11400000, guid: 8feaff88a1004484eb8091fc0cb57d83, type: 2}

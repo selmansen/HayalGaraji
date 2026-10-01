@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb5a877735ad4daf8fb5c5451c50853, type: 3}
+  m_Name: Part_top_ears
+  m_EditorClassIdentifier: 
+  id: top_ears
+  slot: 2
+  prefab: {fileID: 5883926341480794861, guid: eccb4caaa94ba466d9770eea1b85a27a, type: 3}
+  thumbnail: {fileID: 21300000, guid: ba0485da9fb84442a901e4d0b1e42848, type: 3}
+  wordKey: part_ears
+  premium: 0
+  families: 7
+  sound: {fileID: 0}

@@ -1,0 +1,79 @@
+# ---------------------------------------------
+# Unity 6 / HayalGaraji
+# ---------------------------------------------
+# Kural: Assets/, ProjectSettings/ ve Packages/ commit edilir.
+# Geri kalan her sey Unity tarafindan yeniden uretilir.
+
+# Unity'nin yeniden urettigi klasorler (makineye ozel, cok buyuk)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Memory capture / profiler cikti dosyalari
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset Store indirmeleri (yeniden indirilebilir)
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Unity'nin otomatik urettigi IDE proje dosyalari
+# (asmdef'lerden her Editor acilisinda yeniden olusur)
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.idea/
+.vsconfig
+
+# Derlenmis cikti
+*.apk
+*.aab
+*.unitypackage
+*.app
+/[Ee]xportedObj/
+.consulo/
+
+# Crashlytics
+crashlytics-build.properties
+
+# Addressables build ciktisi (build sirasinda uretilir)
+/[Aa]ssets/[Ss]treamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Ss]erverData/
+
+# Betik derleme gunlugu
+/[Aa]ssets/[Ss]cripts/[Ll]ogs/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# JetBrains Rider
+*.sln.iml

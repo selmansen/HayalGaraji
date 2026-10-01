@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb5a877735ad4daf8fb5c5451c50853, type: 3}
+  m_Name: Part_exhaust_rainbow
+  m_EditorClassIdentifier: 
+  id: exhaust_rainbow
+  slot: 6
+  prefab: {fileID: 8510379806451731233, guid: fdeeb47f8c6974f6a980a0dbb9a1f97b, type: 3}
+  thumbnail: {fileID: 21300000, guid: 9568d708bc9414a76908ffb253ab90be, type: 3}
+  wordKey: shape_rainbow
+  premium: 0
+  families: 7
+  sound: {fileID: 0}

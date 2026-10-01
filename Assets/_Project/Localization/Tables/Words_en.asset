@@ -1,0 +1,811 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Words_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 4cec701b4eaa54c72ad3e370a6e9737c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 118777438208
+    m_Localized: Red
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632512
+    m_Localized: Orange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632513
+    m_Localized: Yellow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632514
+    m_Localized: Green
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632515
+    m_Localized: Turquoise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632516
+    m_Localized: Blue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632517
+    m_Localized: Navy blue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632518
+    m_Localized: Purple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632519
+    m_Localized: Pink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632520
+    m_Localized: White
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632521
+    m_Localized: Gray
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632522
+    m_Localized: Black
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632523
+    m_Localized: Brown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632524
+    m_Localized: Light pink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632525
+    m_Localized: Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632526
+    m_Localized: Silver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632527
+    m_Localized: Car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632528
+    m_Localized: Sports car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632529
+    m_Localized: Monster truck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632530
+    m_Localized: Pickup truck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632531
+    m_Localized: Jeep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632532
+    m_Localized: Fire truck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632533
+    m_Localized: Classic car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632534
+    m_Localized: Bus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632535
+    m_Localized: Ambulance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632536
+    m_Localized: Police car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632537
+    m_Localized: Tractor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632538
+    m_Localized: Rocket car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632539
+    m_Localized: Body
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632540
+    m_Localized: Roof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632541
+    m_Localized: Rim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632542
+    m_Localized: Wheel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632543
+    m_Localized: Door
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632544
+    m_Localized: Window
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632545
+    m_Localized: Headlight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632546
+    m_Localized: Horn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632547
+    m_Localized: Exhaust
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632548
+    m_Localized: Steering wheel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632549
+    m_Localized: Seat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632550
+    m_Localized: Mirror
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632551
+    m_Localized: Spoiler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632552
+    m_Localized: Rocket
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632553
+    m_Localized: Balloon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632554
+    m_Localized: Tail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632555
+    m_Localized: Ears
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632556
+    m_Localized: Horn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632557
+    m_Localized: Crown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632558
+    m_Localized: Propeller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632559
+    m_Localized: Mustache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632560
+    m_Localized: Teeth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632561
+    m_Localized: Siren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632562
+    m_Localized: Surfboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632563
+    m_Localized: Snowplow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632564
+    m_Localized: Wings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632565
+    m_Localized: Ladder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632566
+    m_Localized: Lights
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632567
+    m_Localized: Eyes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632568
+    m_Localized: Mouth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632569
+    m_Localized: Cat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632570
+    m_Localized: Dog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632571
+    m_Localized: Bear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632572
+    m_Localized: Rabbit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632573
+    m_Localized: Frog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632574
+    m_Localized: Cow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632575
+    m_Localized: Duck
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632576
+    m_Localized: Lion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632577
+    m_Localized: Elephant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632578
+    m_Localized: Monkey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632579
+    m_Localized: Chicken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632580
+    m_Localized: Sheep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632581
+    m_Localized: Horse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632582
+    m_Localized: Whale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632583
+    m_Localized: Dinosaur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632584
+    m_Localized: Fox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632585
+    m_Localized: Penguin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632586
+    m_Localized: Owl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632587
+    m_Localized: Unicorn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632588
+    m_Localized: Butterfly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632589
+    m_Localized: Fish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632590
+    m_Localized: Robot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632591
+    m_Localized: Moo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632592
+    m_Localized: Quack quack!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632593
+    m_Localized: Woof woof!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632594
+    m_Localized: Meow!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632595
+    m_Localized: Roar!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632596
+    m_Localized: Baa!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632597
+    m_Localized: Cluck cluck!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632598
+    m_Localized: Ribbit!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632599
+    m_Localized: Donut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632600
+    m_Localized: Pizza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632601
+    m_Localized: Ice cream
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632602
+    m_Localized: Watermelon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632603
+    m_Localized: Strawberry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632604
+    m_Localized: Banana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632605
+    m_Localized: Apple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632606
+    m_Localized: Carrot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632607
+    m_Localized: Cake
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118781632608
+    m_Localized: Cookie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826816
+    m_Localized: Star
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826817
+    m_Localized: Heart
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826818
+    m_Localized: Circle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826819
+    m_Localized: Square
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826820
+    m_Localized: Triangle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826821
+    m_Localized: Moon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826822
+    m_Localized: Sun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826823
+    m_Localized: Cloud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826824
+    m_Localized: Rainbow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826825
+    m_Localized: Flower
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826826
+    m_Localized: Lightning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826827
+    m_Localized: Fire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826828
+    m_Localized: Diamond
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826829
+    m_Localized: Bow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826830
+    m_Localized: Ghost
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826831
+    m_Localized: One
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826832
+    m_Localized: Two
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826833
+    m_Localized: Three
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826834
+    m_Localized: Four
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826835
+    m_Localized: Five
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826836
+    m_Localized: Six
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826837
+    m_Localized: Seven
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826838
+    m_Localized: Eight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826839
+    m_Localized: Nine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826840
+    m_Localized: Ten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826841
+    m_Localized: Small
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826842
+    m_Localized: Medium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826843
+    m_Localized: Big
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826844
+    m_Localized: Giant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826845
+    m_Localized: High
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826846
+    m_Localized: Low
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826847
+    m_Localized: Fast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826848
+    m_Localized: Slow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826849
+    m_Localized: Clean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826850
+    m_Localized: Dirty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826851
+    m_Localized: Day
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826852
+    m_Localized: Night
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826853
+    m_Localized: Open
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826854
+    m_Localized: Closed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826855
+    m_Localized: Front
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826856
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826857
+    m_Localized: Top
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826858
+    m_Localized: Under
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826859
+    m_Localized: Side
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826860
+    m_Localized: Inside
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826861
+    m_Localized: Outside
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826862
+    m_Localized: Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826863
+    m_Localized: Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826864
+    m_Localized: Happy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826865
+    m_Localized: Sleepy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826866
+    m_Localized: Surprised
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826867
+    m_Localized: Cool
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826868
+    m_Localized: Loving
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826869
+    m_Localized: Silly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826870
+    m_Localized: Jump!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826871
+    m_Localized: Paint!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826872
+    m_Localized: Wash!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826873
+    m_Localized: Drive!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826874
+    m_Localized: Stop!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826875
+    m_Localized: Look!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826876
+    m_Localized: Honk!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826877
+    m_Localized: Sleep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826878
+    m_Localized: Plain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826879
+    m_Localized: Two colors
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826880
+    m_Localized: Glowing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826881
+    m_Localized: Glitter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826882
+    m_Localized: Rain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826883
+    m_Localized: Snow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826884
+    m_Localized: Bubbles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826885
+    m_Localized: Normal eyes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826886
+    m_Localized: Star eyes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826887
+    m_Localized: Heart eyes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826888
+    m_Localized: Happy eyes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826889
+    m_Localized: Cool glasses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826890
+    m_Localized: Wink
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826891
+    m_Localized: Surprise!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826892
+    m_Localized: Photo!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826893
+    m_Localized: Garage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826894
+    m_Localized: None
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826895
+    m_Localized: Good night, Pofu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826896
+    m_Localized: Great!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826897
+    m_Localized: Very nice!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826898
+    m_Localized: Super!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826899
+    m_Localized: "Can you find\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826900
+    m_Localized: Where is it?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826901
+    m_Localized: Pofu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826902
+    m_Localized: Hi, I'm Pofu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826903
+    m_Localized: Welcome back!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826904
+    m_Localized: Let's go!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826905
+    m_Localized: Pofu is so happy!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826906
+    m_Localized: Hee hee, that tickles!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826907
+    m_Localized: Wow!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826908
+    m_Localized: Look at me, I look amazing!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826909
+    m_Localized: I'm squeaky clean!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826910
+    m_Localized: Smile!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826911
+    m_Localized: Surpriiise!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826912
+    m_Localized: Thank you!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826913
+    m_Localized: "Pofu is getting sleepy\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118785826914
+    m_Localized: See you tomorrow!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

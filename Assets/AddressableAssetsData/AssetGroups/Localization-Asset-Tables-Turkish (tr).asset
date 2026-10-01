@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Asset-Tables-Turkish (tr)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Asset-Tables-Turkish (tr)
+  m_GUID: 8711605a4ad74474caa16d479b7f4568
+  m_SerializeEntries:
+  - m_GUID: 6be7b74a74bda47779e27fa94b2e5b7a
+    m_Address: WordAudio_tr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tr
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 991784a48b396484482c651127bc7fe6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1b52f4880ce21421aaf1f1a7f0044a3a, type: 2}
+    - {fileID: 11400000, guid: 2654ba75bb02e48eb806df39c7d016a6, type: 2}
+    - {fileID: 11400000, guid: 0fa8e3b34d33f4a20a1fd967f60176dd, type: 2}

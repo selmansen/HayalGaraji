@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fb5a877735ad4daf8fb5c5451c50853, type: 3}
+  m_Name: Part_buddy_penguin
+  m_EditorClassIdentifier: 
+  id: buddy_penguin
+  slot: 8
+  prefab: {fileID: 8139226481208235953, guid: 38813aa441d1647f4b8ab132d6665d38, type: 3}
+  thumbnail: {fileID: 21300000, guid: 8092176e20b474385b458d080b17acc4, type: 3}
+  wordKey: animal_penguin
+  premium: 0
+  families: 7
+  sound: {fileID: 0}
