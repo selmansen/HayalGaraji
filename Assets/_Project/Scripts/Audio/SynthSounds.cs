@@ -79,9 +79,129 @@ namespace HayalGaraji
             return d;
         });
 
-        /// <summary>Korna sesi (hayvan kornaları).</summary>
+        /// <summary>Korna sesi (hayvan kornaları, zil, palyaço, klasik araba).</summary>
         public static AudioClip ForHorn(string id)
         {
+            id = id ?? "";
+            if (id.Contains("cat")) return Get("horn_cat", () =>
+            {
+                // "miyav": perde yükselip iner, genizden
+                const float dur = 0.65f; int n = (int)(dur * SR); var d = new float[n]; float ph = 0f;
+                for (int i = 0; i < n; i++)
+                {
+                    float t = (float)i / SR, k = t / dur;
+                    float f = k < 0.35f ? Mathf.Lerp(480f, 820f, k / 0.35f) : Mathf.Lerp(820f, 430f, (k - 0.35f) / 0.65f);
+                    ph += f / SR;
+                    d[i] = (Osc(Wave.Saw, ph) * 0.6f + Osc(Wave.Sine, ph * 2f) * 0.4f) * 0.28f * Env(t, dur, 0.06f, 0.2f);
+                }
+                return LowPass(d, 2600f);
+            });
+            if (id.Contains("dog")) return Get("horn_dog", () =>
+            {
+                // "hav hav": iki kısa, tok havlama
+                float[] mix = null;
+                for (int q = 0; q < 2; q++)
+                {
+                    int n = (int)(0.17f * SR); var d = new float[n]; float ph = 0f;
+                    for (int i = 0; i < n; i++)
+                    {
+                        float t = (float)i / SR, f = Mathf.Lerp(330f, 190f, t / 0.17f);
+                        ph += f / SR;
+                        d[i] = (Osc(Wave.Saw, ph) + ((float)rnd.NextDouble() * 2f - 1f) * 0.35f) * 0.3f * Env(t, 0.17f, 0.01f, 0.08f);
+                    }
+                    mix = Mix(mix, Delay(LowPass(d, 1500f), q * 0.26f));
+                }
+                return mix;
+            });
+            if (id.Contains("sheep")) return Get("horn_sheep", () =>
+            {
+                // "meee": hızlı titreyen meleme
+                const float dur = 0.8f; int n = (int)(dur * SR); var d = new float[n]; float ph = 0f;
+                for (int i = 0; i < n; i++)
+                {
+                    float t = (float)i / SR;
+                    float f = 340f + Mathf.Sin(t * 2f * Mathf.PI * 17f) * 28f - t * 30f;
+                    ph += f / SR;
+                    d[i] = Osc(Wave.Saw, ph) * (0.75f + 0.25f * Mathf.Sin(t * 2f * Mathf.PI * 17f)) * 0.26f * Env(t, dur, 0.05f, 0.25f);
+                }
+                return LowPass(d, 2200f);
+            });
+            if (id.Contains("chicken")) return Get("horn_chicken", () =>
+            {
+                // "gıt gıt gıdaak"
+                float[] mix = null;
+                float[] starts = { 0f, 0.14f, 0.28f };
+                float[] lens = { 0.08f, 0.08f, 0.3f };
+                for (int q = 0; q < 3; q++)
+                {
+                    int n = (int)(lens[q] * SR); var d = new float[n]; float ph = 0f;
+                    for (int i = 0; i < n; i++)
+                    {
+                        float t = (float)i / SR, k = t / lens[q];
+                        float f = q < 2 ? Mathf.Lerp(700f, 560f, k) : (k < 0.3f ? Mathf.Lerp(600f, 980f, k / 0.3f) : Mathf.Lerp(980f, 720f, (k - 0.3f) / 0.7f));
+                        ph += f / SR;
+                        d[i] = Osc(Wave.Square, ph) * 0.16f * Env(t, lens[q], 0.008f, lens[q] * 0.4f);
+                    }
+                    mix = Mix(mix, Delay(LowPass(d, 2400f), starts[q]));
+                }
+                return mix;
+            });
+            if (id.Contains("frog")) return Get("horn_frog", () =>
+            {
+                // "vrak vrak": pürüzlü, alçak
+                float[] mix = null;
+                for (int q = 0; q < 2; q++)
+                {
+                    int n = (int)(0.22f * SR); var d = new float[n]; float ph = 0f;
+                    for (int i = 0; i < n; i++)
+                    {
+                        float t = (float)i / SR;
+                        ph += Mathf.Lerp(150f, 120f, t / 0.22f) / SR;
+                        d[i] = Osc(Wave.Square, ph) * (Mathf.Repeat(t * 38f, 1f) < 0.55f ? 1f : 0.15f) * 0.22f * Env(t, 0.22f, 0.01f, 0.06f);
+                    }
+                    mix = Mix(mix, Delay(LowPass(d, 1100f), q * 0.3f));
+                }
+                return mix;
+            });
+            if (id.Contains("lion")) return Get("horn_lion", () =>
+            {
+                // Sevimli kükreme: hırıltılı ve kısa (korkutmaz)
+                const float dur = 0.9f; int n = (int)(dur * SR); var d = new float[n]; float ph = 0f;
+                for (int i = 0; i < n; i++)
+                {
+                    float t = (float)i / SR, k = t / dur;
+                    float f = k < 0.25f ? Mathf.Lerp(110f, 170f, k / 0.25f) : Mathf.Lerp(170f, 90f, (k - 0.25f) / 0.75f);
+                    ph += f / SR;
+                    float growl = 0.7f + 0.3f * Mathf.Sin(t * 2f * Mathf.PI * 26f);
+                    d[i] = (Osc(Wave.Saw, ph) + ((float)rnd.NextDouble() * 2f - 1f) * 0.5f) * growl * 0.3f * Env(t, dur, 0.08f, 0.35f);
+                }
+                return LowPass(d, 900f);
+            });
+            if (id.Contains("bell")) return Get("horn_bell", () =>
+            {
+                // Bisiklet zili: "dırın dırın"
+                float[] mix = null;
+                for (int q = 0; q < 2; q++)
+                    mix = Mix(mix, Delay(Mix(Chirp(0.45f, 2100f, 2090f, Wave.Sine, 0.25f), Chirp(0.45f, 2650f, 2640f, Wave.Sine, 0.15f)), q * 0.18f));
+                return mix;
+            });
+            if (id.Contains("clown")) return Get("horn_clown", () =>
+            {
+                // Palyaço kornası: "pamp pamp"
+                float[] mix = null;
+                for (int q = 0; q < 2; q++)
+                {
+                    int n = (int)(0.2f * SR); var d = new float[n]; float ph = 0f;
+                    for (int i = 0; i < n; i++)
+                    {
+                        float t = (float)i / SR;
+                        ph += Mathf.Lerp(380f, 330f, t / 0.2f) / SR;
+                        d[i] = (Mathf.Repeat(ph, 1f) < 0.22f ? 1f : -0.3f) * 0.22f * Env(t, 0.2f, 0.01f, 0.07f);
+                    }
+                    mix = Mix(mix, Delay(LowPass(d, 1700f), q * 0.25f));
+                }
+                return mix;
+            });
             if (id != null && id.Contains("duck")) return Get("horn_duck", () =>
             {
                 float[] mix = null;

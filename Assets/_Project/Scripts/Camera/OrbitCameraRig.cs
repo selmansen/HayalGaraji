@@ -25,7 +25,10 @@ namespace HayalGaraji
         float vYaw, vPitch, idle, k, lookYaw, lookPitch, baseFov;
         int lastDragFrame = -1;
 
-        void Awake() { baseFov = cam.fieldOfView; }
+        float baseNear;
+        static readonly int InteriorId = Shader.PropertyToID("_HG_Interior");
+
+        void Awake() { baseFov = cam.fieldOfView; baseNear = cam.nearClipPlane; Shader.SetGlobalFloat(InteriorId, 0f); }
         void OnEnable() { builder.Rebuilt += OnRebuilt; }
         void OnDisable() { builder.Rebuilt -= OnRebuilt; }
         void OnRebuilt() { distance = Mathf.Clamp(builder.Definition.cameraDistance, minDistance, maxDistance); }
@@ -50,7 +53,7 @@ namespace HayalGaraji
         public void SetInterior(bool inside)
         {
             Interior = inside;
-            lookYaw = 0f; lookPitch = -5f;
+            lookYaw = 0f; lookPitch = -12f; // direksiyon ve gösterge düğmeleri görünsün
         }
 
         void LateUpdate()
@@ -85,6 +88,9 @@ namespace HayalGaraji
             }
             cam.transform.SetPositionAndRotation(pos, r);
             cam.fieldOfView = baseFov + interiorExtraFov * e;
+            // İçeride yakındaki direksiyon kesilmesin; cam ve çizgi kabukları kapanır
+            cam.nearClipPlane = Mathf.Lerp(baseNear, 0.02f, e);
+            Shader.SetGlobalFloat(InteriorId, e > 0.6f ? 1f : 0f);
         }
     }
 }

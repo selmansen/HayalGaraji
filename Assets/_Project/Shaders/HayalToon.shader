@@ -165,7 +165,9 @@ Shader "HayalGaraji/Toon"
                 o.positionCS = pos;
                 return o;
             }
-            half4 frag(Varyings i) : SV_Target { return half4(_OutlineColor.rgb, 1); }
+            // Kamera arabanın içindeyken çizgi kabukları görüşü kaplamasın
+            float _HG_Interior;
+            half4 frag(Varyings i) : SV_Target { clip(0.5 - _HG_Interior); return half4(_OutlineColor.rgb, 1); }
             ENDHLSL
         }
 

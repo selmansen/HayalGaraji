@@ -377,12 +377,20 @@ namespace HayalGaraji
         {
             rig.SetInterior(!rig.Interior);
             VocabularyService.I?.Say(rig.Interior ? "dir_inside" : "dir_outside");
-            if (rig.Interior && builder.Chassis && builder.Chassis.passengerSeat)
-            {
-                var b = builder.Chassis.passengerSeat.GetComponentInChildren<BuddyAnimator>();
-                if (b) b.Hop(); // arkadaş "hoş geldin" diye zıplar
-            }
+            if (rig.Interior) StartCoroutine(WelcomeInside());
             UpdatePods();
+        }
+
+        /// <summary>İçeri girince kamera yerine oturduktan sonra arkadaş "hoş geldin" diye zıplar ve kıkırdar.</summary>
+        System.Collections.IEnumerator WelcomeInside()
+        {
+            yield return new WaitForSeconds(0.75f);
+            if (!rig.Interior || !builder.Chassis || !builder.Chassis.passengerSeat) yield break;
+            var b = builder.Chassis.passengerSeat.GetComponentInChildren<BuddyAnimator>();
+            if (b) b.Hop();
+            AudioService.I?.PlaySfx(SynthSounds.Giggle, 0.1f);
+            yield return new WaitForSeconds(0.5f);
+            if (rig.Interior) VocabularyService.I?.Say("pofu_welcome_back");
         }
 
         void UpdatePods()

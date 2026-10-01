@@ -214,7 +214,8 @@ namespace HayalGaraji.EditorTools
             Icon("cat_accessories", pink, heart); Icon("album", teal, square);
             Icon("arrow_up", accentC, up); Icon("arrow_down", accentC, down); Icon("plus", accentC, plusS); Icon("minus", accentC, minusS);
             Icon("face_normal", blue, dots); Icon("face_star", yellow, star); Icon("face_heart", pink, heart);
-            Icon("part_horn_cow", purple, play); Icon("part_horn_duck", yellow, play); Icon("horn_button", purple, play);
+            Icon("part_horn_cow", purple, play); Icon("part_horn_duck", yellow, play);
+            foreach (var hk in new[] { "car", "cat", "dog", "sheep", "chicken", "frog", "lion", "bell", "clown" }) Icon("part_horn_" + hk, purple, play); Icon("horn_button", purple, play);
             int si = 0;
             foreach (var st in StickerList)
             {
@@ -581,14 +582,26 @@ namespace HayalGaraji.EditorTools
             parts.Add(Part("toy_dice", PartSlot.Toy, SavePrefab(dice, "Toy_Dice"), "shape_square"));
 
             // Korna: sadece ses (ses dosyaları gelince atanacak)
+            // Kornalar: sadece ses (kodla üretilir). Hayvan sesleri çocuğa hayvanı da öğretir.
+            parts.Add(Part("horn_car", PartSlot.Horn, null, "vehicle_car"));
             parts.Add(Part("horn_cow", PartSlot.Horn, null, "animal_cow"));
             parts.Add(Part("horn_duck", PartSlot.Horn, null, "animal_duck"));
+            parts.Add(Part("horn_cat", PartSlot.Horn, null, "animal_cat"));
+            parts.Add(Part("horn_dog", PartSlot.Horn, null, "animal_dog"));
+            parts.Add(Part("horn_sheep", PartSlot.Horn, null, "animal_sheep"));
+            parts.Add(Part("horn_chicken", PartSlot.Horn, null, "animal_chicken"));
+            parts.Add(Part("horn_frog", PartSlot.Horn, null, "animal_frog"));
+            parts.Add(Part("horn_lion", PartSlot.Horn, null, "animal_lion"));
+            parts.Add(Part("horn_bell", PartSlot.Horn, null, "thing_bell"));
+            parts.Add(Part("horn_clown", PartSlot.Horn, null, "thing_clown"));
 
             // Yer tutucu ikon: gerçek ikonlar üretilene kadar
             // Sesli parçalar (korna) modelsizdir: ikonları emoji setinden (part_<id>); diğerleri sonra modelden çekilir
             foreach (var p in parts)
             {
-                p.thumbnail = art.icons.TryGetValue("part_" + p.id, out var ic) ? ic : art.icons["cat_wheels"];
+                p.thumbnail = art.icons.TryGetValue("part_" + p.id, out var ic) && ic ? ic : null;
+                if (!p.thumbnail) p.thumbnail = AssetDatabase.LoadAssetAtPath<Sprite>($"Assets/_Project/Art/Icons/part_{p.id}.png");
+                if (!p.thumbnail) p.thumbnail = art.icons["cat_wheels"];
                 EditorUtility.SetDirty(p);
             }
 

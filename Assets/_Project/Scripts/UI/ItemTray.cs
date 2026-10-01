@@ -57,8 +57,9 @@ namespace HayalGaraji
                 var bubble = b.GetComponent<Image>();
                 if (bubble) bubble.color = BubbleColor;
                 var icon = b.transform.Find("Icon").GetComponent<Image>();
-                if (e.swatch.HasValue) { icon.sprite = swatchSprite; icon.color = e.swatch.Value; }
-                else { icon.sprite = e.icon; icon.color = Color.white; }
+                if (e.swatch.HasValue) { icon.sprite = swatchSprite; icon.color = e.swatch.Value; icon.enabled = true; }
+                else { icon.sprite = e.icon; icon.color = Color.white; icon.enabled = e.icon != null; } // görsel eksikse beyaz kare göstermesin
+                if (!e.swatch.HasValue && e.icon == null) Debug.LogWarning($"Tepsi: '{e.wordKey}' öğesinin ikonu yok.");
                 icon.preserveAspect = true;
                 icon.rectTransform.localScale = Vector3.one * (e.selected ? selectedIconScale : 1f);
                 var sel = b.transform.Find("SelectedBg");

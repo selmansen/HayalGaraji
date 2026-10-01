@@ -255,8 +255,10 @@ namespace HayalGaraji.EditorTools
                 bt.kind = InteriorKind.DashButton; bt.wordKey = dashBtns[bi].Item2; bt.noteHz = dashBtns[bi].Item3;
             }
 
-            var driver = Empty("DriverView", interior.transform, new Vector3(-0.24f, floorY + 0.32f, cabMid - 0.02f));
-            var passenger = Empty("PassengerSeat", interior.transform, new Vector3(0.24f, floorY + 0.06f, cabMid - 0.1f));
+            // Sürücü gözü: biraz geride ve ortaya yakın, hafif sağa dönük; direksiyon, düğmeler ve yandaki arkadaş birlikte görünür
+            var driver = Empty("DriverView", interior.transform, new Vector3(-0.12f, floorY + 0.36f, cabMid - 0.25f));
+            driver.transform.localRotation = Quaternion.Euler(0f, 15f, 0f);
+            var passenger = Empty("PassengerSeat", interior.transform, new Vector3(0.24f, floorY + 0.06f, cabMid + 0.02f));
             passenger.layer = zoneLayer;
             var pc = passenger.AddComponent<SphereCollider>(); pc.isTrigger = true; pc.center = new Vector3(0f, 0.25f, 0f); pc.radius = 0.17f;
             passenger.AddComponent<InteriorTapTarget>().kind = InteriorKind.Buddy;
